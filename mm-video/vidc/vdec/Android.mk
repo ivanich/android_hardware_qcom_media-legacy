@@ -57,7 +57,7 @@ LOCAL_PATH:= $(ROOT_DIR)
 ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf)
 DISPLAY := display-caf
 else
-DISPLAY := display
+DISPLAY := display-legacy
 endif
 
 libmm-vdec-inc          := bionic/libc/include

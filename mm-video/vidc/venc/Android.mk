@@ -48,7 +48,7 @@ include $(CLEAR_VARS)
 ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf)
 DISPLAY := display-caf
 else
-DISPLAY := display
+DISPLAY := display-legacy
 endif
 
 libmm-venc-inc      := bionic/libc/include
@@ -97,7 +97,7 @@ include $(CLEAR_VARS)
 ifeq ($(TARGET_QCOM_DISPLAY_VARIANT),caf)
 DISPLAY := display-caf
 else
-DISPLAY := display
+DISPLAY := display-legacy
 endif
 
 mm-venc-test720p-inc            := $(TARGET_OUT_HEADERS)/mm-core
